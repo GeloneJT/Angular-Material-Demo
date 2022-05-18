@@ -10,6 +10,9 @@ import { MatRadioModule } from '@angular/material/radio';
 import { SelectDropdownComponent } from './select-dropdown/select-dropdown.component';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
+import { InputControlsComponent } from './input-controls/input-controls.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,7 @@ import { FormsModule } from '@angular/forms';
     CheckboxComponent,
     RadioButtonComponent,
     SelectDropdownComponent,
+    InputControlsComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,9 @@ import { FormsModule } from '@angular/forms';
     MatCheckboxModule,
     MatRadioModule,
     MatSelectModule,
-    FormsModule
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent],
