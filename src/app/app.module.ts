@@ -27,6 +27,8 @@ import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.co
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { MaterialTabsComponent } from './material-tabs/material-tabs.component';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     ChipsComponent,
     ProgressSpinnerComponent,
     TooltipsComponent,
+    MaterialTabsComponent,
   ],
   imports: [
     BrowserModule,
@@ -59,6 +62,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatChipsModule,
     MatProgressSpinnerModule,
     MatTooltipModule,
+    MatTabsModule,
     
   ],
   providers: [],
