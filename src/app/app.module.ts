@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { InputControlsComponent } from './input-controls/input-controls.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { TextAreaComponent } from './text-area/text-area.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import {MatInputModule} from '@angular/material/input';
     RadioButtonComponent,
     SelectDropdownComponent,
     InputControlsComponent,
+    TextAreaComponent,
   ],
   imports: [
     BrowserModule,
