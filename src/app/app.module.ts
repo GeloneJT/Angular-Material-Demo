@@ -21,6 +21,8 @@ import { IconsComponent } from './icons/icons.component';
 import {MatIconModule} from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { ButtonComponent } from './button/button.component';
+import { ChipsComponent } from './chips/chips.component';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,7 @@ import { ButtonComponent } from './button/button.component';
     DatepickComponent,
     IconsComponent,
     ButtonComponent,
+    ChipsComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,7 +49,8 @@ import { ButtonComponent } from './button/button.component';
     MatDatepickerModule,
     MatNativeDateModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatChipsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
