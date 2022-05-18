@@ -17,6 +17,8 @@ import { TextAreaComponent } from './text-area/text-area.component';
 import { DatepickComponent } from './datepick/datepick.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { IconsComponent } from './icons/icons.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     InputControlsComponent,
     TextAreaComponent,
     DatepickComponent,
+    IconsComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,6 +42,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
