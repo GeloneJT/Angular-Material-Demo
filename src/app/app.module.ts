@@ -19,6 +19,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { IconsComponent } from './icons/icons.component';
 import {MatIconModule} from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import {MatIconModule} from '@angular/material/icon';
     TextAreaComponent,
     DatepickComponent,
     IconsComponent,
+    ButtonComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +46,7 @@ import {MatIconModule} from '@angular/material/icon';
     MatDatepickerModule,
     MatNativeDateModule,
     MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],
