@@ -18,11 +18,13 @@ import { DatepickComponent } from './datepick/datepick.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { IconsComponent } from './icons/icons.component';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { ButtonComponent } from './button/button.component';
 import { ChipsComponent } from './chips/chips.component';
-import {MatChipsModule} from '@angular/material/chips';
+import { MatChipsModule } from '@angular/material/chips';
+import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,7 @@ import {MatChipsModule} from '@angular/material/chips';
     IconsComponent,
     ButtonComponent,
     ChipsComponent,
+    ProgressSpinnerComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,6 +54,7 @@ import {MatChipsModule} from '@angular/material/chips';
     MatIconModule,
     MatButtonModule,
     MatChipsModule,
+    MatProgressSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
