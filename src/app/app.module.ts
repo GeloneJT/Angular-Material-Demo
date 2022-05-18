@@ -11,9 +11,12 @@ import { SelectDropdownComponent } from './select-dropdown/select-dropdown.compo
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
 import { InputControlsComponent } from './input-controls/input-controls.component';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { TextAreaComponent } from './text-area/text-area.component';
+import { DatepickComponent } from './datepick/datepick.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,7 @@ import { TextAreaComponent } from './text-area/text-area.component';
     SelectDropdownComponent,
     InputControlsComponent,
     TextAreaComponent,
+    DatepickComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,9 @@ import { TextAreaComponent } from './text-area/text-area.component';
     MatSelectModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
