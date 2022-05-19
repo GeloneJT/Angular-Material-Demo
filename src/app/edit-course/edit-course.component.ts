@@ -1,8 +1,6 @@
 import { Component, Inject, InjectionToken, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
-
-
 @Component({
   selector: 'app-edit-course',
   templateUrl: './edit-course.component.html',
